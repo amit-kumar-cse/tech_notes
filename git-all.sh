@@ -4,11 +4,11 @@
 git add --all
 #status check
 addStatus $?
-if addStatus!=0; then
+if addStatus==0; then
+    say "add command passed"
+else
     say "add command failed"
     exit
-else
-    say "add command passed"
 fi
 
 
