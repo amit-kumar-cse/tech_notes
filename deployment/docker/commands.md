@@ -17,6 +17,7 @@
 * login to a docker file
     * **docker exec -it <container-id> /bin/sh**
 * docker-compose 
-    * **docker-compose -f <docker-compose-file-name.yml> up**
+    * **docker-compose -f <docker-compose-file-name.yml> up -d**
+        * -d is for detached mode
 * clean your docker 
     * **docker system prune -a**
