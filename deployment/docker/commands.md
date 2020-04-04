@@ -1,7 +1,7 @@
 * Flags
     * D --debug
 * image
-    * **docker image build -t homepage/homepage:latest**
+    * **docker image build -t homepage/homepage:latest .**
     * docker image ls
     * inspect a docker image
         * docker image inspect <image-id>
@@ -20,5 +20,3 @@
     * **docker-compose -f <docker-compose-file-name.yml> up**
 * clean your docker 
     * **docker system prune -a**
-    
-
