@@ -1,3 +1,7 @@
+## Code
+
+###### it looks beautify in github
+
 ```ts
 interface ClockInterface {
     currentTime: Date;
@@ -10,7 +14,7 @@ class Clock implements ClockInterface {
 
 interface Animal {
     sizeInInch: number;
-    // new (sizeInInch: number);
+    // new (sizeInInch: number);    //i dont know what is this, but it is given in ts interfaces documentation
     makeSound: (volume: number) => void;
     makeSoundAtTopVolume: () => void;
 }
