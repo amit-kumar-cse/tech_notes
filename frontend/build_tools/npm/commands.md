@@ -3,4 +3,10 @@
     * packs the code in a tarball and puts in directory containing package.json
 * **npm install package**
     * **package can be a tarball path here**
+* npm update
+    * https://docs.npmjs.com/cli-commands/update.html
+* **upgrading to latest version of jhipster**
+    * see release notes.
+
+
 
