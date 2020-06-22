@@ -19,5 +19,7 @@
 * docker-compose 
     * **docker-compose -f <docker-compose-file-name.yml> up -d**
         * -d is for detached mode
+    * docker-compose -f <docker-compose-file-name.yml> **pull**
+        * pull latest if docker tags have been updated for newer versions
 * clean your docker 
     * **docker system prune -a**
