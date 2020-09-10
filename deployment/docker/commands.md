@@ -23,3 +23,6 @@
         * pull latest if docker tags have been updated for newer versions
 * clean your docker 
     * **docker system prune -a**
+* load and save an image
+    * docker save -o filename.tar image:latest
+    * docker load -i filename.tar
