@@ -3,3 +3,5 @@
 * <https://github.com/amit1702/js-practice>
 * <https://github.com/amit1702/typescript-practice>
 * <https://www.typescriptlang.org/docs/handbook/basic-types.html> 
+* <https://javascript.info/>
+* you dont know javascript book.
