@@ -1,7 +1,7 @@
 # React libraries
   
 ### **Crucial**  
-* create-react-app
+* create-react-app. done.
 * styled components
 * React redux. https://react-redux.js.org
     * Redux saga

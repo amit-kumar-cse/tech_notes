@@ -26,5 +26,13 @@
     * Read error message very nicely. 
     * Goto people in react
         * ...
-    * 
-    * 
+* Performance measuring and tuning
+    * https://reactjs.org/docs/optimizing-performance.html
+        * Profiling Components with the Chrome Performance Tab
+        * Profiling Components with the DevTools Profiler
+        * Virtualize Long Lists
+        * Avoid Reconciliation
+        * shouldComponentUpdate in Action
+    * https://reactjs.org/docs/profiler.html
+        
+
