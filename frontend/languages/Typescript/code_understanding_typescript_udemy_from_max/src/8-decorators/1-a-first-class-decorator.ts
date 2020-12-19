@@ -6,7 +6,20 @@
         }
     }
 
-    @Logger('Class - Person')
+    function WithTemplate(template: string, hookId: string) {
+        return function(constructor: any) {
+            console.log('Function: WithTemplate');
+            const hookElement = document.getElementById(hookId);
+            const p = new constructor();
+            if(hookElement) {
+                hookElement.innerHTML = template;
+                hookElement.textContent = p.name;
+            }
+        }
+    }
+
+    // @Logger('Class - Person')
+    @WithTemplate('<h1>Hello user</h1>', 'app')
     class Person {
          name: string = 'Chaitanya';
 
@@ -17,6 +30,4 @@
 
     let pers = new Person();
     console.log(pers);
-
-
 }
