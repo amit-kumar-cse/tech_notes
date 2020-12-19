@@ -1,10 +1,12 @@
 {
-    function Logger (constructor: Function) {
-        console.log('Inside logger');
-        console.log(constructor);
+    function Logger(logString: string) {
+        return function(constructor: Function) {
+            console.log(logString);
+            console.log(constructor);
+        }
     }
 
-    @Logger
+    @Logger('Class - Person')
     class Person {
          name: string = 'Chaitanya';
 

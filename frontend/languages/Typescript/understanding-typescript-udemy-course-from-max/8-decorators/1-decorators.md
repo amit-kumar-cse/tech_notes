@@ -9,3 +9,10 @@ It is best to start decorator names with capital letters, though it is not compu
 
 Declarators execute when your class is defined, not when it is instantiated.
 
+[code](../../code_understanding_typescript_udemy_from_max/src/8-decorators/1-a-first-class-decorator.ts)
+
+
+-----
+### Decorator Factories
+**Decorator factories** are used to get Decorators which are configured 
+with the parameters passed to the logger decorator. as shown in the example in this checkin.
