@@ -1,5 +1,11 @@
 # Decorators
 
+I have not prepared full notes of this chapter as i felt it may be a little 
+bit of overkill.
+Please revise this from typescript documentation itself.
+https://www.typescriptlang.org/docs/handbook/decorators.html
+
+
 All decorators are functions, that fire on particular times.
 
 Generally decorators are used by other code to enhances functionality of those classes etc. e.g. angular uses lots of decorators.
@@ -29,6 +35,18 @@ If we need to declare some parameter in our function, but we do not need to use 
 We can define it with parameter name _, as shown in the example in this checkin.
 
 
+```typescript
+const isValid = true;
+isValid = isValid && false;
+isValid = isValid && ...someBooleanCondition;
+
+```
+
+
+### Some good packages
+* https://github.com/typestack/class-validator
+* https://www.npmjs.com/package/typescript-starter
+* https://www.npmjs.com/search?q=typescript&ranking=popularity
 
 
 
