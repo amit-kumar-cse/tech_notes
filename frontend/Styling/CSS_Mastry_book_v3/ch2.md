@@ -106,7 +106,20 @@ a[href^="http:"]
 img[src$=".jpg"]
 ```
 
-Read the rest of these in the book/reference
+To match a value anywhere in the attribute
+```css
+/*links containing google word in them*/
+a[href*='google']::after {
+  
+}
+```
+
+another selection - it matches message or message-error
+```css
+a[hreflang|='message']   {
+  
+}
+```
 
 ### Pseudo elements
 When you want to target a part of your page and your dont want to litter your html with extra markup.
@@ -130,12 +143,12 @@ h1::after {
   background: yellow;
 }
 ```
-Feel free to use any properties for pseudo elements.
+Feel free to use any css properties for pseudo elements.
 
 ### Pesudo classes
 **What are pseudo classes**
 
-When you want to structure an element based on something other then the structure of the document.
+When you want to structure an element based on something other than the structure of the document.
 * eg.
     * state of that element (link, form, input )
 ```css
