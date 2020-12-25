@@ -21,3 +21,7 @@ class Person {
      }
 }
 ```
+
+2. If you make some config changes, please make sure to restart the server.
+
+3. 
