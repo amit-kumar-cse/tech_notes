@@ -1,1 +1,1 @@
-* git book on git website. <https://git-scm.com/book>
+- git book on git website. <https://git-scm.com/book>

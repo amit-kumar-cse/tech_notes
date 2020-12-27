@@ -2,14 +2,16 @@
 
 ```html
 <script>
-    var GLOBAL = 'This is set';
+  var GLOBAL = "This is set";
 </script>
 ```
+
 ```typescript
 declare var GLOBAL: string;
 console.log(GLOBAL);
 ```
-----
+
+---
 
 Declare means to tell typescript, dont worry, it will exist.
 

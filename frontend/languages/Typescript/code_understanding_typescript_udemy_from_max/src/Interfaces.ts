@@ -1,23 +1,23 @@
 interface Greetable {
-    name: string;
-    greet(message: string): void;
+  name: string;
+  greet(message: string): void;
 }
 
 interface Serializable {
-    serialize(): string;
+  serialize(): string;
 }
 
 class Person implements Greetable, Serializable {
-    constructor(public name: string) {}
+  constructor(public name: string) {}
 
-    greet(message: string) {
-        console.log(`${message} ${this.name}`)
-    }
+  greet(message: string) {
+    console.log(`${message} ${this.name}`);
+  }
 
-    serialize(): string {
-        return `My name is ${this.name}`;
-    }
+  serialize(): string {
+    return `My name is ${this.name}`;
+  }
 }
 
-const amit: Greetable = new Person('Amit');
-amit.greet('Hello');
+const amit: Greetable = new Person("Amit");
+amit.greet("Hello");

@@ -1,57 +1,54 @@
 class Department {
-    // public readonly id: string;
-    private employees: string[] = [];
+  // public readonly id: string;
+  private employees: string[] = [];
 
-    constructor(public readonly id: string, private name: string) {
-    }
+  constructor(public readonly id: string, private name: string) {}
 
-    describe (this: Department) {
-        console.log(`Department: ${this.name}`);
-    }
+  describe(this: Department) {
+    console.log(`Department: ${this.name}`);
+  }
 
-    addEmployee (name: string) {
-        this.employees.push(name);
-    }
+  addEmployee(name: string) {
+    this.employees.push(name);
+  }
 
-    printEmployees = () => {
-        console.log(this.employees.length);
-        console.log(this.employees);
-        this.myPrivateMethod();
-    }
+  printEmployees = () => {
+    console.log(this.employees.length);
+    console.log(this.employees);
+    this.myPrivateMethod();
+  };
 
-    private myPrivateMethod = () => {
-        console.log('My private method');
-    }
+  private myPrivateMethod = () => {
+    console.log("My private method");
+  };
 }
 
 class ITDepartment extends Department {
-    public admins: string[];
-    constructor(id: string, admins: string[]) {
-        super(id, 'IT');
-        this.admins = admins;
-    }
+  public admins: string[];
+  constructor(id: string, admins: string[]) {
+    super(id, "IT");
+    this.admins = admins;
+  }
 }
 
 class AccountsDepeartment extends Department {
-    constructor(id: string, private reports: string[]) {
-        super(id, 'Accounts Dept');
-    }
+  constructor(id: string, private reports: string[]) {
+    super(id, "Accounts Dept");
+  }
 
-    addReport(report: string) {
-        this.reports.push(report);
-    }
+  addReport(report: string) {
+    this.reports.push(report);
+  }
 
-    printReports = () => {
-        console.log(this.reports);
-    }
+  printReports = () => {
+    console.log(this.reports);
+  };
 }
 
-const itDepartment = new ITDepartment('d1', ['Finance1']);
-itDepartment.addEmployee('Amit Kumar');
-itDepartment.addEmployee('Saurabh Kumar');
+const itDepartment = new ITDepartment("d1", ["Finance1"]);
+itDepartment.addEmployee("Amit Kumar");
+itDepartment.addEmployee("Saurabh Kumar");
 
 console.log(itDepartment);
 itDepartment.describe();
 itDepartment.printEmployees();
-
-

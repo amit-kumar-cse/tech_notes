@@ -2,13 +2,14 @@
 
 3 or more...
 
-Hyphens
----
-Equals
-======
+## Hyphens
+
+# Equals
+
 Astrisks
-***
+
+---
+
 Underscores
-___
 
-
+---

@@ -1,26 +1,26 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 hr {
-    width: 100%;
+  width: 100%;
 }
 
 .chapter::before {
-    content: '"';
-    font-size: 15em;
-    float: left;
+  content: '"';
+  font-size: 15em;
+  float: left;
 }
 
 .chapter p::first-letter {
-    float: left;
-    font-size: 3em;
+  float: left;
+  font-size: 3em;
 }
 
-.chapter p{
-    text-transform: initial;
+.chapter p {
+  text-transform: initial;
 }

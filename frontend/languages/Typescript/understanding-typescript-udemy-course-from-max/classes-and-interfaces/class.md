@@ -2,13 +2,13 @@
 
 ```typescript
 class Department {
-    name: string;
+  name: string;
 
-    constructor(name: string) {
-        this.name = name;
-    }
+  constructor(name: string) {
+    this.name = name;
+  }
 }
 
-const finance = new Department('Finance');
+const finance = new Department("Finance");
 console.log(finance);
 ```

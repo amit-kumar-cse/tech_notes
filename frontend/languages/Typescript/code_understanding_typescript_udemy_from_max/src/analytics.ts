@@ -1,9 +1,9 @@
-console.log('send analytics data.');
+console.log("send analytics data.");
 
 class Analytics {
-    serverUrl: string;
+  serverUrl: string;
 
-    constructor(serverUrl: string) {
-        this.serverUrl = serverUrl;
-    }
+  constructor(serverUrl: string) {
+    this.serverUrl = serverUrl;
+  }
 }

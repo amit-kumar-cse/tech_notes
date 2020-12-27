@@ -1,13 +1,12 @@
-* useful chrome command line switches
-https://www.ghacks.net/2013/10/06/list-useful-google-chrome-command-line-switches/
+- useful chrome command line switches
+  https://www.ghacks.net/2013/10/06/list-useful-google-chrome-command-line-switches/
 
 Example run on mac.
-/Applications/Google\Chrome/app/Contents/MacOS/Google\ Chrome  --disable-web-security --user-data-dir=~/.chrome-disable-web-security --ignore-cerificate-errors
+/Applications/Google\Chrome/app/Contents/MacOS/Google\ Chrome --disable-web-security --user-data-dir=~/.chrome-disable-web-security --ignore-cerificate-errors
 
 Some contents from this page.
 
-
-```	
+```
 --ash-force-desktop	Forces uses of the desktop version of Chrome
 --disable-3d-apis	Disables 3D Apis, including WebGL and Pepper 3D
 --disable-accelerated-video	Disables GPU accelerated video

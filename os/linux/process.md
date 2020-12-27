@@ -1,1 +1,1 @@
-* ps aux | grep pattern
+- ps aux | grep pattern
