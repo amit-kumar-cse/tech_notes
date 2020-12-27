@@ -1,4 +1,5 @@
-.idea/
+.idea
+build
+coverage
 **/**/node_modules
-#for build folders
 **/**/build

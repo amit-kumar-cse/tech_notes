@@ -1,0 +1,22 @@
+{
+  "name": "tech_notes",
+  "version": "1.0.0",
+  "description": "my tech notes of all types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit1702/tech_notes.git"
+  },
+  "author": "Amit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit1702/tech_notes/issues"
+  },
+  "homepage": "https://github.com/amit1702/tech_notes#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
