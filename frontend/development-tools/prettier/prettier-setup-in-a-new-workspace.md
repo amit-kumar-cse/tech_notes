@@ -1,0 +1,28 @@
+# Prettier setup in a new workspace.
+
+- Checkin all current files
+- https://prettier.io/docs/en/install.html
+  - npm install --save-dev --save-exact prettier
+  - echo {}> .prettierrc.json
+  - create .prettierignore file in package.
+    - use blob pattern to block folder.
+    - node_modules
+    - **/**/node_modules
+  - Add a build script in your code.
+    - 'prettier': "npx prettier --write ."
+  - use cases
+    - format all files
+      - npx prettier --write .
+    - format a certain files.
+      - prettier --write app/components/Button.js
+    - format a set of files matching a glob
+      - prettier --write "app/\*_/_.test.js
+    - check if files are formatted correctly
+      - prettier --check .
+  - checkin your prettier configuration code
+  - checkin your updated code.
+  - Editor integration
+    - Keyboard shortcut to format file/directory
+    - setup on save. https://prettier.io/docs/en/editors.html
+- Common mistakes
+  - Dont use prettier from your global folder. use it from your local node_modules.
