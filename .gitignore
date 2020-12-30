@@ -2,3 +2,4 @@
 **/**/node_modules
 #for build folders
 **/**/build
+**/**/.eslintcache
