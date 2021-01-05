@@ -15,4 +15,6 @@
   - https://jakearchibald.github.io/svgomg/
 - Or use photoshop to reduce quality of your jpg file.
   - Generally pretty small file sizes also give quite good quality.
--
+- Finding a good image.
+  - www.pexels.com
+  - this website has helped me in all my websites.
