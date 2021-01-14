@@ -21,7 +21,10 @@
   - values can be track size or line-names
   -
 - grid-template-areas
-  - https://codepen.io/amit1702/pen/BaLmMpN
+  - https://codepen.io/amikudev/pen/ExgOWBQ
+- Firefox grid layout helper
+  _ check this video if you forget.
+  - https://www.udemy.com/course/css-grid/learn/lecture/7943420#overview
 - ## grid-template
 - column-gap
 - row-gap
