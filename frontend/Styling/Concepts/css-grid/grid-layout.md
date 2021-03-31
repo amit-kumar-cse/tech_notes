@@ -3,6 +3,8 @@
 ### Resource
 
 - CSS-tricks. https://css-tricks.com/snippets/css/complete-guide-grid/
+- Grid properties collected in my xmind.
+- w3 recommendation documentation
 
 ### Terminologies.
 
