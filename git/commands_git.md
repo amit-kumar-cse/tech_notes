@@ -4,3 +4,9 @@
 - common mistake
   - to get repo of same name from incorrect orgenization.
   - test it with git remote -v
+- git-stats
+  - https://github.com/IonicaBizau/git-stats
+  - npm i -g git-stats
+  - git-stats --authors 
+    - to show all authors contributions in a git repo
+- 

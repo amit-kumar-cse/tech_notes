@@ -7,6 +7,7 @@
     * Container
     * Row
     * Column
+    * Center
 * Row/Column Children
     * Flexible
     * Expanded
