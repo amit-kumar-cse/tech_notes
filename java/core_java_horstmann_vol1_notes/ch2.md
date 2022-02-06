@@ -133,9 +133,57 @@ class Test {
 import static java.lang.Math.*;
 ```
 ### 2.5.3 Conversions between numeric types
+
+* Best revised from the book, make notes here later.
+
 ### 2.5.4 Casts
+
+* Conversions in which loss of info is possible are done through casting.
+```java
+double x = 9.997;
+int nx = (int) x;
+```
+* Rounding a floating point number to nearest integer
+```java
+double x = 9.997;
+int rounded = (int) Math.round(x);
+```
+* When there is no possiblity of into loss
+```java
+int x = 9;
+long y = x;
+```
 ### 2.5.5 Combining assignments with operators
+```java
+int x = 5;
+x += 3;
+//it is equivelent to 
+x = (int) (x+3);
+```
 ### 2.5.6 Increment and Decrement operators
+* ++x;
+* x++;
+* --x;
+* x--;
+
 ### 2.5.7 Relational and boolean operators
+
+* == - equality
+* != 
+* <
+* <=
+* \>
+* \>= 
+* &&
+  * x && y - y is not evaluated is x is false/
+* ||
+  * x || y - y is not evaluated if x is true
+* x < y ? x : y;
+
 ### 2.5.8 Bitwise operators
+
+* Do as required
+
 ### 2.5.5 Parenthesis and Operator Hierarchy
+
+* Do as required
