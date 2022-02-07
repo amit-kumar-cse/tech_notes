@@ -187,3 +187,65 @@ x = (int) (x+3);
 ### 2.5.5 Parenthesis and Operator Hierarchy
 
 * Do as required
+-----
+
+## 2.6 Strings
+
+* Conceptually, java strings are a sequence of Unicode characters.
+* Java String is not a built in type, comes from Java library supplied with Java.
+```java
+String str = "";
+String str1 = "hello";
+```
+
+### 2.6.1 Substrings
+```java
+String str = "hello";
+String subStr = str.substring(0, 3);
+```
+* Length of the resultant string by substring(x, y) method
+  * y - x
+* String contcatenation
+```java
+String str = "Ja" + "va";
+String str1 = "Java" + 11; //non string item is convered to string 
+```
+* Strings are immutable in Java
+  * So that same strings can use the same memory in Java.
+  * Java designers chose the profits and losses of it and finalized for immutability of Strings.
+  * Use StringBuilder as required.
+* Testing for string equality
+  * Do not use == (compare by reference) as it is not assured that equal strings will be at same place it memory.
+  * It can create an intermittent Random bug in your programs that can be very hard to track.
+```java
+s1.equals(s2);
+"stringContent".equals(str);
+"str1".equalsIgnoreCase(str);
+```
+### 2.6.5 Empty and null strings
+```java
+String str = "Hare Krishna";
+if(str != null && str.length() != 0) {
+    System.out.println("String is not empty");
+}
+```
+
+### Array vs String lengths in Java
+* For array the syntext is
+```java
+arr.length;
+```
+* For String, syntext is
+```java
+str.length()
+```
+### 2.6.6 Code points and code units
+* To get chat at index n.
+```java
+chat first = str.charAt(0);
+```
+* Do not use chars, they are too low level constructs
+
+### 2.6.7 The String API
+
+* 
