@@ -248,4 +248,47 @@ chat first = str.charAt(0);
 
 ### 2.6.7 The String API
 
-* 
+* Prepare notes
+
+### 2.6.8 Reading the online API documentation
+
+* https://docs.oracle.com/javase/9/docs/api/index.html?overview-summary.html
+
+### 2.6.9 StringBuilder
+```java
+import java.lang.StringBuilder;
+
+public class Test {
+    public void test() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(ch);
+        builder.append(str);
+        String completedString = builder.toString();
+        print(builder.length());
+        builder.setCharAt(i, ch);
+        builder.insert(offset, str);
+        builder.insert(offset, ch);
+        builder.delete(startIndex, endIndex); //deletes from start to end - 1
+    }
+}
+```
+* If multiple threads want to edit the StringBuilder
+  * use StringBuffer instead.
+  * Slightly less performance due to Multithreading.
+
+## 2.7 Input and Output
+Come back later and prepare notes
+### 2.7.1 Reading input
+### 2.7.2 Formatting output
+### 2.7.3 File input and output
+
+# 2.8 Control Flow
+Come back later and prepare notes.
+### 2.8.1 Block scopes
+### 2.8.2 Conditional statements
+### 2.8.3 Loops
+### 2.8.4 Deterministic loops
+### 2.8.5 Multiple selections the switch statement
+### 2.8.8 Statements that break the control flow.
+
+
